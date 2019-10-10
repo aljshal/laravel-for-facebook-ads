@@ -11,7 +11,7 @@ class DataFeedsController extends Controller
         $curl = curl_init();
 
         curl_setopt_array($curl, array(
-            CURLOPT_URL => "http://products-interview.b4e2txqxtr.ap-northeast-2.elasticbeanstalk.com/api/products?page=2&per_page=50&orders%5B0%5D%5Bcolumn%5D=created_at&orders%5B0%5D%5Bdirection%5D=desc&orders%5B1%5D%5Bcolumn%5D=product_code&orders%5B1%5D%5Bdirection%5D=desc&query=discount_rate%20%3E%200",
+            CURLOPT_URL => "http://sampleDownload.com",
             CURLOPT_RETURNTRANSFER => true,
             CURLOPT_ENCODING => "",
             CURLOPT_MAXREDIRS => 10,
